@@ -1,6 +1,7 @@
 html {
   color: #000000;
   font: calc(2vw + 16px) monospace;
+  line-height: 1.4;
 }
 
 body {
@@ -21,7 +22,7 @@ nav {
   gap: 0.6rem;
   height: 2.6rem;
   width: 100%;
-  border-bottom: 0.14rem dashed #b02414;
+  border-bottom: 0.12rem dashed #b02414;
   font-size: 0.9rem;
 }
 nav a {
@@ -36,7 +37,7 @@ nav a:hover {
 }
 
 .sass-intro {
-  margin: 1.2rem 0 4rem 0;
+  margin: 0.7rem 0 4rem 0;
   text-align: center;
 }
 .sass-intro h1 {

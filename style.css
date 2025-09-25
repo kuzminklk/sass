@@ -44,6 +44,7 @@ nav a:hover {
   font-weight: 600;
   color: #d81600;
   font-family: "Tiny5";
+  text-shadow: 0.1rem 0.1rem #000000;
 }
 
 .sass-description {

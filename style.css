@@ -1,7 +1,7 @@
 /* Import example: @use "_forms" */
 html {
   color: #000000;
-  font: calc(2vw + 16px) monospace;
+  font: calc(1vw + 24px) monospace;
   line-height: 1.4;
 }
 
@@ -26,7 +26,7 @@ nav {
   min-height: 2.6rem;
   padding: 0.3rem;
   width: 100%;
-  border-bottom: 0.12rem dashed #b02414;
+  border-bottom: 5px dashed #b02414;
 }
 nav a {
   font-family: "Tiny5";
@@ -41,7 +41,7 @@ nav a:hover {
 
 @media (pointer: coarse) {
   nav {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
 }
 .intro {

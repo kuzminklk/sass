@@ -24,7 +24,7 @@ nav {
   font-size: 0.9rem;
   gap: 0.6rem;
   min-height: 2.6rem;
-  padding: 0.3rem;
+  padding: 0.6rem;
   width: 100%;
   border-bottom: 5px dashed #b02414;
 }
@@ -39,11 +39,6 @@ nav a:hover {
   font-weight: 600;
 }
 
-@media (pointer: coarse) {
-  nav {
-    font-size: 1.3rem;
-  }
-}
 .intro {
   margin: 0.7rem 0 4rem 0;
   text-align: center;
@@ -72,4 +67,10 @@ nav a:hover {
 }
 .description p {
   font-size: 0.8rem;
+}
+
+@media (width <= 35rem) {
+  nav {
+    font-size: 1.1rem;
+  }
 }/*# sourceMappingURL=style.css.map */

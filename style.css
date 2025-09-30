@@ -1,7 +1,11 @@
 /* Import example: @use "_forms" */
+* {
+  box-sizing: border-box;
+}
+
 html {
   color: #000000;
-  font: calc(1vw + 24px) monospace;
+  font: calc(1vw + 30px) monospace;
   line-height: 1.4;
 }
 
@@ -23,8 +27,8 @@ nav {
   flex-wrap: wrap;
   font-size: 0.9rem;
   gap: 0.6rem;
-  min-height: 2.6rem;
   padding: 0.6rem;
+  min-height: 2.6rem;
   width: 100%;
   border-bottom: 5px dashed #b02414;
 }

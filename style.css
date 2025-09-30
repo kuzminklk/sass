@@ -1,3 +1,4 @@
+/* Import example: @use "_forms" */
 html {
   color: #000000;
   font: calc(2vw + 16px) monospace;
@@ -19,9 +20,11 @@ nav {
   align-items: center;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   font-size: 0.9rem;
   gap: 0.6rem;
-  height: 2.6rem;
+  min-height: 2.6rem;
+  padding: 0.3rem;
   width: 100%;
   border-bottom: 0.12rem dashed #b02414;
 }
@@ -36,11 +39,16 @@ nav a:hover {
   font-weight: 600;
 }
 
-.sass-intro {
+@media (pointer: coarse) {
+  nav {
+    font-size: 1.8rem;
+  }
+}
+.intro {
   margin: 0.7rem 0 4rem 0;
   text-align: center;
 }
-.sass-intro h1 {
+.intro h1 {
   font-family: "Tiny5";
   font-size: 2rem;
   font-weight: 600;
@@ -49,19 +57,19 @@ nav a:hover {
   text-shadow: 0.1rem 0.1rem #000000;
 }
 
-.sass-description {
+.description {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-bottom: 4rem;
 }
-.sass-description h2 {
+.description h2 {
   font-family: "Tiny5";
   font-size: 1.4rem;
   color: #b02414;
   margin: 1.8rem 0 0.3rem 0;
 }
-.sass-description p {
+.description p {
   font-size: 0.8rem;
 }/*# sourceMappingURL=style.css.map */

@@ -1,3 +1,6 @@
 
+### Description 
+Detached repository for [SASS documentation](https://sass-lang.com/) study materials
+
 ### Purpose
-Detached repository for study material from SASS official documentation.
+Part of computer-science study curriculum availabe in [Notion](https://app.notion.com/p/kuzminklk/31154d4de03580d7b5ceca5b187846be) (private for now)

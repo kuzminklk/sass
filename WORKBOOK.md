@@ -1,12 +1,12 @@
-### SASS
+### For SASS
 
 ```
-@use - 'import'
+@use
 @extends
 @mixin
 ```
 
-### CSS
+### For CSS
 
 ```
 @media-query
